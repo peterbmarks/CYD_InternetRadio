@@ -90,6 +90,7 @@
  */
 #include <AudioTools.h>
 #include <AudioTools/AudioCodecs/CodecMP3Helix.h>
+#include <AudioTools/Communication/HTTP/ICYStream.h>
 #include <SD.h>
 #include "ESP32AutoConnect.h"
 #include "UiComponents.h"
