@@ -213,7 +213,7 @@ class UiPanelTitle : public UiPanel
         {
             UiPanel::show();
             _lcd.setTextDatum(textdatum_t::middle_left);
-            panelText(60, 20, "CYD Web Radio", TFT_MAROON, fonts::DejaVu24);
+            panelText(60, 20, "CYD Web Radio+", TFT_MAROON, fonts::DejaVu24);
         }
     private:
 };
