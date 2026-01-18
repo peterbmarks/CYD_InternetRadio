@@ -111,7 +111,7 @@ enum class ROTATION { LANDSCAPE_USB_RIGHT, PORTRAIT_USB_UP,
                       LANDSCAPE_USB_LEFT,  PORTRAIT_USB_DOWN };
 
 const char NTP_SERVER_POOL[] = "ch.pool.ntp.org";
-const char TIME_ZONE[]       = "MEZ-1MESZ-2,M3.5.0/02:00:00,M10.5.0/03:00:00";
+const char TIME_ZONE[]       = "AEST-10AEDT,M10.1.0,M4.1.0/3"; // "MEZ-1MESZ-2,M3.5.0/02:00:00,M10.5.0/03:00:00";
 const char HOST_NAME[]       = "CYD-RADIO";
 
 const int I2S_BCKL = GPIO_NUM_27;  // --> BCKL |               // 26 |
